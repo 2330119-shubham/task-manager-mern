@@ -1,6 +1,6 @@
 import express from 'express';
-import { registerUser, authUser } from './authController.js'; // Removed ../controllers/
-import User from './User.js'; // Removed ../models/
+import { registerUser, authUser } from './authController.js';
+import User from './User.js';
 
 const router = express.Router();
 
