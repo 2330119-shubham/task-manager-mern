@@ -5,9 +5,9 @@ import {
   createTask, 
   updateTask, 
   deleteTask 
-} from '../controllers/taskController.js';
-import { protect } from '../middleware/authMiddleware.js';
+} from './taskController.js';
 
+import { protect } from './authMiddleware.js';
 const router = express.Router();
 
 // Apply protect middleware to these routes
