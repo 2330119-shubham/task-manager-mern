@@ -3,7 +3,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 
-// Import Routes - No subfolders used
+// Import Routes from the same folder
 import authRoutes from './authRoutes.js';
 import taskRoutes from './taskRoutes.js';
 import userRoutes from './userRoutes.js';
